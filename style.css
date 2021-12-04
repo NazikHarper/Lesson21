@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.container {
+    display: grid;
+    grid-template-areas: 
+                        "header header header"
+                        "sidebar content content"
+                        "footer footer footer";
+    grid-gap: 10px;
+    grid-template-columns: 10% 1fr 1fr;          
+    grid-template-rows: 1fr 3fr 1fr;
+}
+img {
+    width: 100%;
+    height: 270px;
+}
+.header{
+    /* background-color: blue; */
+    grid-area: header;
+    height: 150px;
+    margin: 0;
+}
+h1 {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    font-size: 50px;
+}
+.sidebar{
+    background-color: rgba(129, 129, 129, 0.26);
+    grid-area: sidebar ;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.content{
+    /* background-color: rgb(255, 0, 0); */
+    grid-area: content ;
+}
+.footer{
+    background-color: rgba(129, 129, 129, 0.26);
+    grid-area: footer;
+    padding-top: 40px;
+    border-radius: 15px 15px 0 0;
+}
+.uk-card-default{
+    border-radius: 100%;
+}
+.logo {
+    margin-top: 50px;
+    text-align: center;
+}
+.s_1 {
+    border-bottom: 3px solid black;
+}
+.s_1 li {
+    padding-top: 40px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: black;
+}
+.s_1 a {
+    color: black;
+}
+.s_2 p {
+    font-size: 15px;
+    color: black;
+}
+.s_2 li {
+    font-size: 12px;
+}
+.container_fix {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "f1 f2"
+      "f3 f4"
+      "f5 f6";
+}
+.f1 { 
+    grid-area: f1;
+}
+.f2 { 
+    grid-area: f2;
+    
+
+     
+}
+.f3 { 
+    grid-area: f3;
+
+
+     
+}
+.f4 { 
+    grid-area: f4;
+    
+
+     
+}
+.f5 { 
+    grid-area: f5;
+    
+
+     
+}
+.f6 { 
+    grid-area: f6;
+
+
+    
+}
+.icon {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.i1 {
+    color: black;
+}
+.i2{
+    color: black;
+}
+.i3{
+    color: black;
+}
+  
+  
+  
+  
+  
